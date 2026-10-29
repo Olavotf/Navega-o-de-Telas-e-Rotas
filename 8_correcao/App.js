@@ -21,7 +21,6 @@ function TelaA({ navigation }) {
 }
 
 function TelaB({ route, navigation }) {
-  // TelaB pode ser aberta sem params, então usamos ?. e um valor padrão.
   const nome = route.params?.nome || 'Nenhum nome informado';
 
   return (
